@@ -1,0 +1,34 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+fieldset{
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: antiquewhite;
+}
+legend{
+    font-weight: bold;
+}
+label{
+    display: block;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+input [type=text]{
+    width: 20em;
+    border: 1px solid red;
+
+}
+textarea{
+    width: 100%;
+    height: 10em;
+}
+
+input.radio, input.checkbox, input.submit{
+    width: auto;
+}
+.radio{
+    margin-right: 1em;
+}

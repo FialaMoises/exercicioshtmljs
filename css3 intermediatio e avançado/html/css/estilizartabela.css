@@ -1,0 +1,33 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table{
+    width: 600px;
+    border-collapse: separate;
+}
+th, td{
+    border: 1px solid red;
+    padding: 7px;
+
+}
+
+th{
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 80%;
+    letter-spacing: 0.1em;
+}
+tr.alternado{
+    background-color: #efefef;
+
+}
+tr:hover{
+    background-color: aqua;
+}
+
+
+.numero{
+    text-align: right;
+}
